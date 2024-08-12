@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Inter:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: gray;
+
+}
+
+.imagen {
+    width: 150px;
+    height: 150px;
+}
+
+.contenido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo {
+    margin: 50px;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-size: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 1.25rem;
+
+}
+
+td,
+th {
+    border: 1px solid black;
+    /* Ajusta el estilo del borde según lo desees */
+    width: 33.33%;
+    /* Ajusta este valor según el número de columnas */
+    text-align: center;
+    /* Centra el texto dentro de las celdas */
+    padding: 8px;
+    /* Añade un poco de espacio interno a las celdas */
+}
+
+td {
+    background-color: chartreuse;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-size: 1rem;
+}
+
+.primerCelda {
+    background-color: aqua;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-size: 1.25rem;
+
+}
+
+button {
+    background-color: darkkhaki;
+    width: 12.5rem;
+    height: 3.125rem;
+    border-radius: 1.5rem;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-size: 1.25rem;
+}
+
+button:hover {
+    width: 12.8rem;
+    height: 3.44rem;
+    background-color: rgb(236, 69, 105);
+}
+
+.subtitulos {
+    margin: 1.25rem;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-size: 1.88rem;
+}
+
+p {
+    width: 50rem;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-size: 1rem;
+    margin: 1.25rem;
+}
+
+@media(max-width: 1120px) {
+    p {
+        width: 25rem;
+    }
+}
